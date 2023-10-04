@@ -1,9 +1,9 @@
-tableextension 50200 ACDTE50200 extends Item // ACD + NOME TABELLA OGNI VOLTA CHE CREIAMO UNA TABELLA
+tableextension 50201 ACDTE50201 extends Item // ACD + NOME TABELLA OGNI VOLTA CHE CREIAMO UNA TABELLA
 {
 
     fields
     {
-        field(50200; "ACD Customer No."; Code[20])
+        field(50201; "ACD Customer No."; Code[20])
         {
             TableRelation = Customer;
         }
