@@ -25,4 +25,5 @@ pageextension 50202 ACDPE502 extends "Customer Card"
 
     var
         myInt: Integer;
+
 }
