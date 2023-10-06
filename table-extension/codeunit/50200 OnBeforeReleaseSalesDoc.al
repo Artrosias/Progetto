@@ -49,7 +49,7 @@ codeunit 50200 "Release_Sales_Document"
 // procedura
 
 
-// veriricare che le righe di tipo Articolo.
+// veriricare che le righe di tipo Articolo
 // se in anagrafica dell'articolo è specificato un codice cliente
 // allora quel codice deve corrispondere al codice cliente intestata dell'ordine (Bill-To Customer)
 
