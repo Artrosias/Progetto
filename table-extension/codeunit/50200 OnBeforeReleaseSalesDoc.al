@@ -10,7 +10,7 @@ codeunit 50200 "Release_Sales_Document"
     end;
 
 
-    // sottoscrizione evento OneBeforePostSalesDoc
+    // sottoscrizione evento OneBeforeReleaseSalesDoc
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", 'OnBeforeReleaseSalesDoc', '', false, false)]
     local procedure OnBeforeReleaseSalesDoc(var SalesHeader: Record "Sales Header"; PreviewMode: Boolean; var IsHandled: Boolean; var SkipCheckReleaseRestrictions: Boolean)
